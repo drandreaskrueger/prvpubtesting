@@ -13,4 +13,7 @@ and when paid for, all is pushed upstream to the **public** repo on github
 1. inspect the settings *before* the next step: `cat .git/config`
 1. `git remote add upstream git@github.com:drandreaskrueger/prvpubtesting.git` to set github as **upstream**
 1. inspect settings once more: `cat .git/config`
-1. ...
+1. `git pull upstream master` to sync github down to gitlab
+1. from now on, all development happens first in gitlab only
+1. i.e. local edits, e.g. `nano README.md`
+1. 
