@@ -16,4 +16,7 @@ and when paid for, all is pushed upstream to the **public** repo on github
 1. `git pull upstream master` to sync github down to gitlab
 1. from now on, all development happens first in gitlab only
 1. i.e. local edits, e.g. `nano README.md`
-1. 
+1. set author: `git config user.name "Andreas Krueger"; git config user.email "<email-address>"`
+1. first commit `git add README.md; git commit -m "from now on all happens local and in gitlab only"`
+1. push (ONLY) to gitlab: `git push`
+
