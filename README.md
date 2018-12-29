@@ -24,3 +24,27 @@ only when I (got paid, and) want to reveal the new code to everyone, I push to t
 
 `git push upstream master`
 
+
+---
+
+for reference, the full `cat .git/config`
+
+```
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+[remote "origin"]
+	url = git@gitlab.com:andreaskrueger/prvpubtesting.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "master"]
+	remote = origin
+	merge = refs/heads/master
+[remote "upstream"]
+	url = git@github.com:drandreaskrueger/prvpubtesting.git
+	fetch = +refs/heads/*:refs/remotes/upstream/*
+[user]
+	name = Andreas Krueger
+	email = <email-address>
+```
