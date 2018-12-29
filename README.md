@@ -20,3 +20,7 @@ and when paid for, all is pushed upstream to the **public** repo on github
 1. first commit `git add README.md; git commit -m "from now on all happens local and in gitlab only"`
 1. push (ONLY) to gitlab: `git push` or `git push origin master`
 
+only when I (got paid, and) want to reveal the new code to everyone, I push to the public repo:
+
+`git push upstream master`
+
